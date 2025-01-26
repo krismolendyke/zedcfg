@@ -22,12 +22,16 @@
       "cmd-f": "editor::MoveToNextWordEnd",
       "ctrl-v": ["editor::MovePageDown", { "center_cursor": true }],
       "cmd-v": ["editor::MovePageUp", { "center_cursor": true }],
+      "cmd-g cmd-g": "go_to_line::Toggle", // see also this context's "ctrl-g" and "Editor && mode == full" "ctrl-g"
+      "cmd-<": "editor::MoveToBeginning",
+      "cmd->": "editor::MoveToEnd",
 
       // Selection
       "cmd-ctrl-space": "editor::SelectLargerSyntaxNode",
       "cmd-ctrl-enter": "editor::SelectAllMatches",
       "cmd-ctrl-,": "editor::AddSelectionAbove",
       "cmd-ctrl-.": "editor::AddSelectionBelow",
+      "ctrl-g": null,
 
       // Delete
       "cmd-d": "editor::DeleteToNextWordEnd",
@@ -43,6 +47,13 @@
 
       // Commands
       "cmd-x": "command_palette::Toggle"
+    }
+  },
+  {
+    "context": "Editor && mode == full",
+    "use_key_equivalents": true,
+    "bindings": {
+      "ctrl-g": "editor::Cancel"
     }
   },
   {
