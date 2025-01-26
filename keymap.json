@@ -23,7 +23,7 @@
       // Delete
       "cmd-d": "editor::DeleteToNextWordEnd",
       "cmd-h": "editor::DeleteToPreviousWordStart",
-      "cmd-shift-h": "editor::DeleteLine",
+      "ctrl-shift-h": "editor::DeleteLine",
 
       // Insert
       "ctrl-m": "editor::Newline",
