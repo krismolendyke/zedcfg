@@ -40,6 +40,7 @@
 
       // Insert
       "ctrl-m": "editor::Newline",
+      "cmd-;": "editor::ToggleComments",
 
       // Undo/Redo
       "ctrl-/": "editor::Undo",
