@@ -18,7 +18,16 @@
       "cmd-m": "editor::MoveToBeginningOfLine",
       "cmd-b": "editor::MoveToPreviousWordStart",
       "cmd-d": "editor::DeleteToNextWordEnd",
-      "cmd-h": "editor::DeleteToPreviousWordStart"
+      "cmd-h": "editor::DeleteToPreviousWordStart",
+      "ctrl-m": "editor::Newline"
+    }
+  },
+  {
+    "context": "Editor && (showing_code_actions || showing_completions)",
+    "use_key_equivalents": true,
+    "bindings": {
+      "ctrl-n": "editor::ContextMenuNext",
+      "ctrl-p": "editor::ContextMenuPrev"
     }
   }
 ]
