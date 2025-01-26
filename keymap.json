@@ -20,6 +20,9 @@
       "cmd-b": "editor::MoveToPreviousWordStart",
       "cmd-f": "editor::MoveToNextWordEnd",
 
+      // Selection
+      "cmd-ctrl-space": "editor::SelectLargerSyntaxNode",
+
       // Delete
       "cmd-d": "editor::DeleteToNextWordEnd",
       "cmd-h": "editor::DeleteToPreviousWordStart",
@@ -32,6 +35,7 @@
       "ctrl-/": "editor::Undo",
       "ctrl-?": "editor::Redo",
 
+      // Commands
       "cmd-x": "command_palette::Toggle"
     }
   },
