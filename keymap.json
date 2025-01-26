@@ -19,9 +19,14 @@
       "cmd-m": "editor::MoveToBeginningOfLine",
       "cmd-b": "editor::MoveToPreviousWordStart",
       "cmd-f": "editor::MoveToNextWordEnd",
+      "ctrl-v": ["editor::MovePageDown", { "center_cursor": true }],
+      "cmd-v": ["editor::MovePageUp", { "center_cursor": true }],
 
       // Selection
       "cmd-ctrl-space": "editor::SelectLargerSyntaxNode",
+      "cmd-ctrl-enter": "editor::SelectAllMatches",
+      "cmd-ctrl-,": "editor::AddSelectionAbove",
+      "cmd-ctrl-.": "editor::AddSelectionBelow",
 
       // Delete
       "cmd-d": "editor::DeleteToNextWordEnd",
