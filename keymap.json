@@ -31,7 +31,7 @@
       "cmd-ctrl-enter": "editor::SelectAllMatches",
       "cmd-ctrl-,": "editor::AddSelectionAbove",
       "cmd-ctrl-.": "editor::AddSelectionBelow",
-      "ctrl-g": null,
+      "ctrl-g": "menu::Cancel",
 
       // Delete
       "cmd-d": "editor::DeleteToNextWordEnd",
