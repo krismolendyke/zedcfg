@@ -9,7 +9,8 @@
   {
     "context": "Workspace",
     "bindings": {
-      // "shift shift": "file_finder::Toggle"
+      "cmd-space": "workspace::ActivateNextPane",
+      "cmd-shift-space": "workspace::ActivatePreviousPane"
     }
   },
   {
