@@ -15,7 +15,10 @@
   {
     "context": "Editor",
     "bindings": {
-      // "j k": ["workspace::SendKeystrokes", "escape"]
+      "cmd-m": "editor::MoveToBeginningOfLine",
+      "cmd-b": "editor::MoveToPreviousWordStart",
+      "cmd-d": "editor::DeleteToNextWordEnd",
+      "cmd-h": "editor::DeleteToPreviousWordStart"
     }
   }
 ]
