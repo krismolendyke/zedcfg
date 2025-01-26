@@ -12,12 +12,12 @@
     "diagnostics": false
   },
   "base_keymap": "Emacs",
-  "ui_font_family": "PragmataPro Mono Liga",
   "ui_font_size": 16,
-  "buffer_font_size": 16,
+  "buffer_font_family": "PragmataPro Mono Liga",
+  "buffer_font_size": 18,
   "theme": {
     "mode": "system",
     "light": "Tomorrow",
-    "dark": "Tomorrow Night"
+    "dark": "Tomorrow at Midnight Min"
   }
 }
