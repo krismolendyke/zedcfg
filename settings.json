@@ -19,7 +19,7 @@
   "theme": {
     "mode": "system",
     "light": "Tomorrow",
-    "dark": "Tomorrow at Midnight Min"
+    "dark": "Tomorrow at Midnight"
   },
   "cursor_shape": "block",
   "cursor_blink": true,
