@@ -7,8 +7,13 @@
 // from the command palette.
 [
   {
+    // No context bindings have the highest precedence.  See https://zed.dev/docs/key-bindings#precedence
+    "bindings": {}
+  },
+  {
     "context": "Workspace",
     "bindings": {
+      // Focus
       "cmd-space": "workspace::ActivateNextPane",
       "cmd-shift-space": "workspace::ActivatePreviousPane"
     }
