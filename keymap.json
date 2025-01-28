@@ -43,6 +43,12 @@
       "cmd-ctrl-.": "editor::AddSelectionBelow",
       "ctrl-g": "menu::Cancel",
 
+      // Cut/Copy/Paste
+      // TODO editor::KillRingCut & editor::KillRingYank when zed groks how a kill ring actually works.
+      "cmd-w": "editor::Copy",
+      "ctrl-w": "editor::Cut",
+      "ctrl-y": "editor::Paste",
+
       // Delete
       "cmd-d": "editor::DeleteToNextWordEnd",
       "cmd-h": "editor::DeleteToPreviousWordStart",
