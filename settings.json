@@ -11,6 +11,7 @@
     "metrics": false,
     "diagnostics": false
   },
+  "confirm_quit": true, // TODO revisit after figuring out a good binding for Emacs fill paragraph like behavior
   "base_keymap": "Emacs",
   "ui_font_family": "PragmataPro Liga",
   "ui_font_size": 16,
