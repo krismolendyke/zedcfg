@@ -41,11 +41,11 @@
       "cmd-ctrl-enter": "editor::SelectAllMatches",
       "cmd-ctrl-,": "editor::AddSelectionAbove",
       "cmd-ctrl-.": "editor::AddSelectionBelow",
-      "ctrl-g": "menu::Cancel",
 
       // Cut/Copy/Paste
       // TODO editor::KillRingCut & editor::KillRingYank when zed groks how a kill ring actually works.
       "cmd-w": "editor::Copy",
+      "ctrl-k": "editor::CutToEndOfLine",
       "ctrl-w": "editor::Cut",
       "ctrl-y": "editor::Paste",
 
@@ -63,7 +63,8 @@
       "ctrl-?": "editor::Redo",
 
       // Commands
-      "cmd-x": "command_palette::Toggle"
+      "cmd-x": "command_palette::Toggle",
+      "ctrl-x ctrl-r": "file_finder::Toggle"
     }
   },
   {
