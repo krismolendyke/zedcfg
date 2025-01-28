@@ -16,6 +16,9 @@
       // Focus
       "cmd-space": "workspace::ActivateNextPane",
       "cmd-shift-space": "workspace::ActivatePreviousPane"
+
+      // TODO better mimic Emacs split/join pane behavior
+      // "ctrl-x 1": "pane::CloseAllItems"
     }
   },
   {
