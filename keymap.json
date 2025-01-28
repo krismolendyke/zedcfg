@@ -8,11 +8,43 @@
 [
   {
     // No context bindings have the highest precedence.  See https://zed.dev/docs/key-bindings#precedence
-    "bindings": {}
+    "use_key_equivalents": true,
+    "bindings": {
+      // Unbind ctrl-g everywhere because I'm used to hitting it repeatedly in Emacs to cancel things and I expect it
+      // to do that consistently everywhere.  Unfortutately zed defaults ctrl-g to go to line which I rarely use.
+      // Extra unfortunately, this has been difficult to accomplish and I had to bind various things to ctrl-g in
+      // various contexts via trial and error to get it to do what I want it to do.  I'm sure this is brittle and it
+      // certainly is horrible, but it was all that I could come up with right now.  The best way to see all the places
+      // that I had to muck with this is to search for "ctrl-g".  I did bind go to line to "cmd-g cmd-g" like I have in
+      // Emacs.
+      "ctrl-g": null
+    }
+  },
+  {
+    "context": "GoToLine > Editor",
+    "use_key_equivalents": true,
+    "bindings": { "ctrl-g": "menu::Cancel" }
+  },
+  {
+    "context": "Picker > Editor",
+    "use_key_equivalents": true,
+    "bindings": { "ctrl-g": "menu::Cancel" }
+  },
+  {
+    "context": "BufferSearchBar > Editor",
+    "use_key_equivalents": true,
+    "bindings": { "ctrl-g": "buffer_search::Dismiss" }
+  },
+  {
+    "context": "Pane > Editor",
+    "use_key_equivalents": true,
+    "bindings": { "ctrl-g": "editor::Cancel" }
   },
   {
     "context": "Workspace",
     "bindings": {
+      "ctrl-g": "menu::Cancel",
+
       // Focus
       "cmd-space": "workspace::ActivateNextPane",
       "cmd-shift-space": "workspace::ActivatePreviousPane"
@@ -32,7 +64,7 @@
       "cmd-f": "editor::MoveToNextWordEnd",
       "ctrl-v": ["editor::MovePageDown", { "center_cursor": true }],
       "cmd-v": ["editor::MovePageUp", { "center_cursor": true }],
-      "cmd-g cmd-g": "go_to_line::Toggle", // see also this context's "ctrl-g" and "Editor && mode == full" "ctrl-g"
+      "cmd-g cmd-g": "go_to_line::Toggle",
       "cmd-<": "editor::MoveToBeginning",
       "cmd->": "editor::MoveToEnd",
 
@@ -65,13 +97,6 @@
       // Commands
       "cmd-x": "command_palette::Toggle",
       "ctrl-x ctrl-r": "file_finder::Toggle"
-    }
-  },
-  {
-    "context": "Editor && mode == full",
-    "use_key_equivalents": true,
-    "bindings": {
-      "ctrl-g": "editor::Cancel"
     }
   },
   {
