@@ -34,6 +34,7 @@
   "auto_install_extensions": {
     "git-firefly": true,
     "html": true,
+    "one-dark-pro": true,
     "org": true,
     "tomorrow-theme": true
   },
@@ -46,7 +47,7 @@
   "theme": {
     "mode": "system",
     "light": "Tomorrow",
-    "dark": "Tomorrow at Midnight"
+    "dark": "One Dark Pro"
   },
   "cursor_shape": "block",
   "cursor_blink": true,
