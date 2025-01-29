@@ -41,6 +41,11 @@
     "bindings": { "ctrl-g": "editor::Cancel" }
   },
   {
+    "context": "TabSwitcher > Picker",
+    "use_key_equivalents": true,
+    "bindings": { "ctrl-g": "menu::Cancel" }
+  },
+  {
     "context": "Workspace",
     "bindings": {
       "ctrl-g": "menu::Cancel",
