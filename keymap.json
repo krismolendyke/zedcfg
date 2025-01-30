@@ -89,6 +89,11 @@
       "ctrl-m": "editor::Newline",
       "cmd-;": "editor::ToggleComments",
 
+      // Mutate
+      "ctrl-j": ["workspace::SendKeystrokes", "ctrl-p ctrl-j"], // Mimic Emacs join-line behavior
+      "ctrl-t": "editor::Transpose",
+      "ctrl-x ctrl-t": "editor::MoveLineUp", // Approximate Emacs transpose-lines
+
       // Undo/Redo
       "ctrl-/": "editor::Undo",
       "ctrl-?": "editor::Redo",
