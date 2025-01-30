@@ -22,7 +22,8 @@
   "wrap_guides": [120],
 
   // Keys here must be "extension ID".
-  // Easiest way to find this is install via "zed: extensions" -> "Installed" -> "…" (lower right of each installed extension) -> "Copy Extension ID"
+  // Easiest way to find this is to install:
+  // "zed: extensions" -> "Installed" -> "…" (lower right of each installed extension) -> "Copy Extension ID"
   "auto_install_extensions": {
     "git-firefly": true,
     "html": true,
@@ -31,7 +32,10 @@
     "tomorrow-theme": true
   },
 
+  // See https://github.com/zed-industries/zed/blob/main/assets/keymaps/macos/emacs.json for the actual Emacs
+  // keybindings because those will not be shown by zed: open default keymap
   "base_keymap": "Emacs",
+
   "ui_font_family": "PragmataPro Liga",
   "ui_font_size": 18,
   "buffer_font_family": "PragmataPro Mono Liga",
