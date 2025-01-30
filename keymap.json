@@ -45,10 +45,11 @@
 
       // Focus
       "cmd-space": "workspace::ActivateNextPane",
-      "cmd-shift-space": "workspace::ActivatePreviousPane"
+      "cmd-shift-space": "workspace::ActivatePreviousPane",
 
-      // TODO better mimic Emacs split/join pane behavior
-      // "ctrl-x 1": "pane::CloseAllItems"
+      // Pane pain
+      "ctrl-x 0": "pane::CloseAllItems",
+      "ctrl-x 1": ["workspace::SendKeystrokes", "cmd-space ctrl-x 0"]
     }
   },
   // TODO investigate Pane context for better precedence control of things
