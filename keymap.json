@@ -1,48 +1,30 @@
 [
-  {
-    // No context bindings have the highest precedence.  See https://zed.dev/docs/key-bindings#precedence
-    "use_key_equivalents": true,
-    "bindings": {
-      // Unbind ctrl-g everywhere because I'm used to hitting it repeatedly in Emacs to cancel things and I expect it
-      // to do that consistently everywhere.  Unfortutately zed defaults ctrl-g to go to line which I rarely use.
-      // Extra unfortunately, this has been difficult to accomplish and I had to bind various things to ctrl-g in
-      // various contexts via trial and error to get it to do what I want it to do.  I'm sure this is brittle and it
-      // certainly is horrible, but it was all that I could come up with right now.  The best way to see all the places
-      // that I had to muck with this is to search for "ctrl-g".  I did bind go to line to "cmd-g cmd-g" like I have in
-      // Emacs.
-      "ctrl-g": null
-    }
-  },
-  {
-    "context": "GoToLine > Editor",
-    "use_key_equivalents": true,
-    "bindings": { "ctrl-g": "menu::Cancel" }
-  },
-  {
-    "context": "Picker > Editor",
-    "use_key_equivalents": true,
-    "bindings": { "ctrl-g": "menu::Cancel" }
-  },
+  // No context bindings have the highest precedence.  See https://zed.dev/docs/key-bindings#precedence
+
+  // Unbind ctrl-g everywhere.
+  // I'm used to hitting it repeatedly in Emacs to cancel things and I expect it to do that consistently everywhere.
+  // Unfortutately zed defaults ctrl-g to go to line which I rarely use. Extra unfortunately, this has been difficult to
+  // accomplish and I had to bind various things to ctrl-g in various contexts via trial and error to get it to do what
+  // I want it to do. I'm sure this is brittle and it certainly is horrible, but it was all that I could come up with
+  // right now. The best way to see all the places that I had to muck with this is to search for "ctrl-g". I did bind go
+  // to line to "cmd-g cmd-g" like I have in Emacs.
+  { "use_key_equivalents": true, "bindings": { "ctrl-g": null } },
+  { "context": "GoToLine > Editor", "use_key_equivalents": true, "bindings": { "ctrl-g": "menu::Cancel" } },
+  { "context": "Picker > Editor", "use_key_equivalents": true, "bindings": { "ctrl-g": "menu::Cancel" } },
   {
     "context": "BufferSearchBar > Editor",
     "use_key_equivalents": true,
     "bindings": { "ctrl-g": "buffer_search::Dismiss" }
   },
-  {
-    "context": "Pane > Editor",
-    "use_key_equivalents": true,
-    "bindings": { "ctrl-g": "editor::Cancel" }
-  },
-  {
-    "context": "TabSwitcher > Picker",
-    "use_key_equivalents": true,
-    "bindings": { "ctrl-g": "menu::Cancel" }
-  },
+  { "context": "Pane > Editor", "use_key_equivalents": true, "bindings": { "ctrl-g": "editor::Cancel" } },
+  { "context": "TabSwitcher > Picker", "use_key_equivalents": true, "bindings": { "ctrl-g": "menu::Cancel" } },
+  { "context": "Workspace", "use_key_equivalents": true, "bindings": { "ctrl-g": "menu::Cancel" } },
+
+  // Workspace
   {
     "context": "Workspace",
+    "use_key_equivalents": true,
     "bindings": {
-      "ctrl-g": "menu::Cancel",
-
       // Focus
       "cmd-space": "workspace::ActivateNextPane",
       "cmd-shift-space": "workspace::ActivatePreviousPane",
