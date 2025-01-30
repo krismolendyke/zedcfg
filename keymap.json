@@ -67,11 +67,15 @@
       "cmd-m": "editor::MoveToBeginningOfLine",
       "cmd-b": "editor::MoveToPreviousWordStart",
       "cmd-f": "editor::MoveToNextWordEnd",
+      "cmd-a": "editor::MoveToStartOfParagraph",
+      "cmd-e": "editor::MoveToEndOfParagraph",
+      "cmd-<": "editor::MoveToBeginning",
+      "cmd->": "editor::MoveToEnd",
+      "cmd-ctrl-b": "editor::MoveToEnclosingBracket",
+      "cmd-ctrl-f": "editor::MoveToEnclosingBracket",
       "ctrl-v": ["editor::MovePageDown", { "center_cursor": true }],
       "cmd-v": ["editor::MovePageUp", { "center_cursor": true }],
       "cmd-g cmd-g": "go_to_line::Toggle",
-      "cmd-<": "editor::MoveToBeginning",
-      "cmd->": "editor::MoveToEnd",
 
       // Selection
       "cmd-ctrl-space": "editor::SelectLargerSyntaxNode",
