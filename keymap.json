@@ -48,6 +48,17 @@
   // Pane
   { "context": "Pane", "use_key_equivalents": true, "bindings": {} },
 
+  // Buffer Search
+  {
+    "context": "BufferSearchBar > Editor",
+    "use_key_equivalents": true,
+    "bindings": {
+      "ctrl-n": "search::SelectNextMatch",
+      "ctrl-p": "search::SelectPrevMatch",
+      "enter": "editor::Cancel"
+    }
+  },
+
   // Editor
   {
     "context": "Editor",
