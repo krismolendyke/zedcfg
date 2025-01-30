@@ -10,7 +10,7 @@
     "metrics": false,
     "diagnostics": false
   },
-  "confirm_quit": true, // TODO revisit after figuring out a good binding for Emacs fill paragraph like behavior
+  "confirm_quit": true,
 
   "active_pane_modifiers": {
     "border_size": 2.0,

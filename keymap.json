@@ -34,8 +34,11 @@
       "ctrl-x 1": ["workspace::SendKeystrokes", "cmd-space ctrl-x 0"]
     }
   },
-  // TODO investigate Pane context for better precedence control of things
+
+  // Pane
   { "context": "Pane", "use_key_equivalents": true, "bindings": {} },
+
+  // Editor
   {
     "context": "Editor",
     "bindings": {
@@ -73,6 +76,7 @@
 
       // Mutate
       "ctrl-j": ["workspace::SendKeystrokes", "ctrl-p ctrl-j"], // Mimic Emacs join-line behavior
+      "cmd-q": "editor::Rewrap", // Emacs fill-paragraph
       "ctrl-t": "editor::Transpose",
       "ctrl-x ctrl-t": "editor::MoveLineUp", // Approximate Emacs transpose-lines
 
