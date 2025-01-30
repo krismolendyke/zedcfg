@@ -20,6 +20,16 @@
   { "context": "TabSwitcher > Picker", "use_key_equivalents": true, "bindings": { "ctrl-g": "menu::Cancel" } },
   { "context": "Workspace", "use_key_equivalents": true, "bindings": { "ctrl-g": "menu::Cancel" } },
 
+  // Debug Key Context View
+  {
+    "context": "Pane > KeyContextView",
+    "use_key_equivalents": true,
+    "bindings": {
+      "cmd-x": "command_palette::Toggle",
+      "q": "pane::CloseActiveItem"
+    }
+  },
+
   // Workspace
   {
     "context": "Workspace",
