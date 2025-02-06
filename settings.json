@@ -31,6 +31,7 @@
     "material-icon-theme": true,
     "one-dark-pro": true,
     "org": true,
+    "oxocarbon": true,
     "tomorrow-theme": true
   },
 
@@ -47,7 +48,7 @@
   "theme": {
     "mode": "system",
     "light": "Tomorrow",
-    "dark": "One Dark Pro"
+    "dark": "Oxocarbon Dark (IBM Carbon)"
   },
   "cursor_shape": "block",
   "cursor_blink": true,
