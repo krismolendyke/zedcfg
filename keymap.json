@@ -76,6 +76,7 @@
       "ctrl-v": ["editor::MovePageDown", { "center_cursor": true }],
       "cmd-v": ["editor::MovePageUp", { "center_cursor": true }],
       "cmd-g cmd-g": "go_to_line::Toggle",
+      "cmd-.": "outline::Toggle",
 
       // Selection
       "cmd-ctrl-space": "editor::SelectLargerSyntaxNode",
@@ -110,6 +111,7 @@
       "ctrl-?": "editor::Redo",
 
       // Commands
+      "ctrl-.": "editor::ToggleCodeActions",
       "cmd-x": "command_palette::Toggle",
       "ctrl-x ctrl-r": "file_finder::Toggle"
     }
