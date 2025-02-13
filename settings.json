@@ -1,5 +1,4 @@
 {
-  "icon_theme": "Material Icon Theme",
   "assistant": {
     "default_model": {
       "provider": "zed.dev",
@@ -49,7 +48,12 @@
   "theme": {
     "mode": "system",
     "light": "Material Theme Lighter High Contrast",
-    "dark": "Oxocarbon Dark (Variant I)"
+    "dark": "Material Theme Darker High Contrast"
+  },
+  "icon_theme": {
+    "mode": "system",
+    "light": "Material Icon Theme",
+    "dark": "Material Icon Theme"
   },
   "cursor_shape": "block",
   "cursor_blink": true,
