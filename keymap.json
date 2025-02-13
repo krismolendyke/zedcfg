@@ -35,6 +35,9 @@
     "context": "Workspace",
     "use_key_equivalents": true,
     "bindings": {
+      // Commands
+      "cmd-x": "command_palette::Toggle",
+
       // Focus
       "cmd-space": "workspace::ActivateNextPane",
       "cmd-shift-space": "workspace::ActivatePreviousPane",
