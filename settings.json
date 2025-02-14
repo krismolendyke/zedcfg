@@ -77,5 +77,6 @@
   "tabs": {
     "git_status": true
   },
+  "use_system_path_prompts": false,
   "extend_comment_on_newline": false
 }
