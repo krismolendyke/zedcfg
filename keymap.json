@@ -1,6 +1,8 @@
 [
   // No context bindings have the highest precedence.  See https://zed.dev/docs/key-bindings#precedence
 
+  // For macOS Emacs keybindings, see also https://github.com/zed-industries/zed/blob/main/assets/keymaps/macos/emacs.json
+
   // Unbind ctrl-g everywhere.
   // I'm used to hitting it repeatedly in Emacs to cancel things and I expect it to do that consistently everywhere.
   // Unfortutately zed defaults ctrl-g to go to line which I rarely use. Extra unfortunately, this has been difficult to
@@ -89,7 +91,7 @@
 
       // Cut/Copy/Paste
       // TODO editor::KillRingCut & editor::KillRingYank when zed groks how a kill ring actually works.
-      "cmd-w": "editor::Copy",
+      "cmd-w": ["workspace::SendKeystrokes", "cmd-c ctrl-g"], // Emacs transient mark mode deactivates mark after copy
       "ctrl-k": "editor::CutToEndOfLine",
       "ctrl-w": "editor::Cut",
       "ctrl-y": "editor::Paste",
