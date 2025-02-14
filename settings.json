@@ -46,6 +46,7 @@
   "buffer_font_family": "PragmataPro Mono Liga",
   "buffer_font_size": 18,
   "buffer_font_weight": 400,
+  "buffer_line_height": "standard",
   "theme": {
     "mode": "system",
     "light": "Material Theme Lighter High Contrast",
