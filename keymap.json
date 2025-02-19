@@ -67,6 +67,7 @@
   // Editor
   {
     "context": "Editor",
+    "use_key_equivalents": true,
     "bindings": {
       // Movement
       "cmd-m": "editor::MoveToBeginningOfLine",
@@ -117,6 +118,7 @@
 
       // Commands
       "ctrl-.": "editor::ToggleCodeActions",
+      "ctrl-i": "editor::Hover",
       "cmd-x": "command_palette::Toggle",
       "ctrl-x ctrl-r": "file_finder::Toggle"
     }
