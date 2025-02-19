@@ -25,6 +25,7 @@
   // Easiest way to find this is to install:
   // "zed: extensions" -> "Installed" -> "…" (lower right of each installed extension) -> "Copy Extension ID"
   "auto_install_extensions": {
+    "colored-zed-icons-theme": true,
     "dockerfile": true,
     "git-firefly": true,
     "html": true,
@@ -55,8 +56,8 @@
   },
   "icon_theme": {
     "mode": "system",
-    "light": "Material Icon Theme",
-    "dark": "Material Icon Theme"
+    "light": "Colored Zed Icons Theme Light",
+    "dark": "Colored Zed Icons Theme Dark"
   },
   "cursor_shape": "block",
   "cursor_blink": true,
