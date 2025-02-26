@@ -117,7 +117,8 @@
       "ctrl-?": "editor::Redo",
 
       // Commands
-      "ctrl-.": "editor::ToggleCodeActions",
+      "ctrl-,": "editor::ToggleCodeActions",
+      "ctrl-.": "editor::ShowCompletions",
       "ctrl-i": "editor::Hover",
       "cmd-x": "command_palette::Toggle",
       "ctrl-x ctrl-r": "file_finder::Toggle"
