@@ -59,7 +59,7 @@
     "light": "Colored Zed Icons Theme Light",
     "dark": "Colored Zed Icons Theme Dark"
   },
-  "cursor_shape": "block",
+  "cursor_shape": "bar",
   "cursor_blink": true,
   "gutter": {
     "folds": false,
