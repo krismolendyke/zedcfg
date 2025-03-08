@@ -70,7 +70,7 @@
     "use_key_equivalents": true,
     "bindings": {
       // Movement
-      "cmd-m": "editor::MoveToBeginningOfLine",
+      "cmd-m": ["editor::MoveToBeginningOfLine", { "stop_at_indent": true }],
       "cmd-b": "editor::MoveToPreviousWordStart",
       "cmd-f": "editor::MoveToNextWordEnd",
       "cmd-a": "editor::MoveToStartOfParagraph",
