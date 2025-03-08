@@ -59,7 +59,7 @@
     "use_key_equivalents": true,
     "bindings": {
       "ctrl-n": "search::SelectNextMatch",
-      "ctrl-p": "search::SelectPrevMatch",
+      "ctrl-p": "search::SelectPreviousMatch",
       "enter": "editor::Cancel"
     }
   },
@@ -129,7 +129,7 @@
     "use_key_equivalents": true,
     "bindings": {
       "ctrl-n": "editor::ContextMenuNext",
-      "ctrl-p": "editor::ContextMenuPrev"
+      "ctrl-p": "editor::ContextMenuPrevious"
     }
   },
 
