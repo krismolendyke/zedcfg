@@ -121,7 +121,8 @@
       "ctrl-.": "editor::ShowCompletions",
       "ctrl-i": "editor::Hover",
       "cmd-x": "command_palette::Toggle",
-      "ctrl-x ctrl-r": "file_finder::Toggle"
+      "ctrl-x ctrl-r": "file_finder::Toggle",
+      "ctrl-x ctrl-f": ["task::Spawn", { "task_name": "File Finder", "reveal_target": "center" }]
     }
   },
   {
