@@ -65,7 +65,7 @@
   "cursor_blink": true,
   "gutter": {
     "folds": false,
-    "line_numbers": false
+    "line_numbers": true
   },
   "git": {
     "inline_blame": {
