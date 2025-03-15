@@ -19,6 +19,7 @@
     "bindings": { "ctrl-g": "buffer_search::Dismiss" }
   },
   { "context": "Pane > Editor", "use_key_equivalents": true, "bindings": { "ctrl-g": "editor::Cancel" } },
+  { "context": "PromptEditor > Editor", "use_key_equivalents": true, "bindings": { "ctrl-g": "editor::Cancel" } },
   { "context": "TabSwitcher > Picker", "use_key_equivalents": true, "bindings": { "ctrl-g": "menu::Cancel" } },
   { "context": "Workspace", "use_key_equivalents": true, "bindings": { "ctrl-g": "menu::Cancel" } },
 
