@@ -93,5 +93,45 @@
     "git_status": true
   },
   "use_system_path_prompts": false,
-  "extend_comment_on_newline": false
+  "extend_comment_on_newline": false,
+
+  "languages": {
+    "Python": {
+      "language_servers": ["ruff"],
+      "format_on_save": "on",
+      "formatter": [
+        {
+          "code_actions": {
+            "source.organizeImports.ruff": true,
+            "source.fixAll.ruff": true
+          }
+        },
+        {
+          "language_server": {
+            "name": "ruff"
+          }
+        }
+      ]
+    }
+  },
+
+  "lsp": {
+    "ruff": {
+      "initialization_options": {
+        "settings": {
+          "lineLength": 120,
+          "lint": {
+            "extendSelect": ["I"]
+          },
+          "organizeimports": "true"
+        }
+      },
+      "taplo": {
+        "settings": {
+          "array_auto_collapse": false,
+          "column_width": 120
+        }
+      }
+    }
+  }
 }
