@@ -36,6 +36,7 @@
     "one-dark-pro": true,
     "org": true,
     "oxocarbon": true,
+    "ruff": true,
     "toml": true,
     "tomorrow-theme": true
   },
