@@ -70,7 +70,8 @@
   },
   "git": {
     "inline_blame": {
-      "enabled": false
+      "enabled": true,
+      "delay_ms": 750
     }
   },
   "indent_guides": {
