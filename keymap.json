@@ -40,6 +40,7 @@
     "bindings": {
       // Commands
       "cmd-x": "command_palette::Toggle",
+      "ctrl-x ctrl-f": ["task::Spawn", { "task_name": "File Finder", "reveal_target": "center" }],
 
       // Focus
       "cmd-space": "workspace::ActivateNextPane",
