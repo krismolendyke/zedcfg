@@ -51,6 +51,14 @@
   "buffer_font_family": "PragmataPro Mono Liga",
   "buffer_font_size": 18,
   "buffer_font_weight": 400,
+
+  // See https://fsd.it/2025/03/20/pragmatapro-0-9-released/
+  "buffer_font_features": {
+    "ss15": false,
+    "ss16": false,
+    "ss18": true
+  },
+
   "buffer_line_height": "standard",
   "theme": {
     "mode": "system",
