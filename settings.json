@@ -49,17 +49,20 @@
   "ui_font_size": 18,
   "ui_font_weight": 400,
   "buffer_font_family": "PragmataPro Mono Liga",
-  "buffer_font_size": 18,
+  "buffer_font_size": 20,
   "buffer_font_weight": 400,
 
-  // See https://fsd.it/2025/03/20/pragmatapro-0-9-released/
+  // https://fsd.it/pragmatapro/Handbook.rtf
   "buffer_font_features": {
-    "ss15": false,
-    "ss16": false,
-    "ss18": true
+    "calt": true, // Contextual alternative ligatures
+    "liga": true, // Ligatures
+    "ss16": false, // Serif
+    "ss18": true // # Bug // Bug # TODO // HACK tags
   },
 
-  "buffer_line_height": "standard",
+  // This most closely approximates my Emacs config
+  "buffer_line_height": { "custom": 1.2 },
+
   "theme": {
     "mode": "system",
     "light": "Tomorrow",
