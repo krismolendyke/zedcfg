@@ -1,6 +1,6 @@
 // https://zed.dev/docs/configuring-zed
 {
-  "assistant": {
+  "agent": {
     "default_model": {
       "provider": "zed.dev",
       "model": "claude-3-7-sonnet-latest"
