@@ -1,6 +1,6 @@
 // https://zed.dev/docs/configuring-zed
 {
-  "minimap": { "show": "auto" },
+  "minimap": { "show": "never" },
   "agent": {
     "default_model": {
       "provider": "zed.dev",
