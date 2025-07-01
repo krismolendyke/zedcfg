@@ -2,6 +2,8 @@
 {
   "minimap": { "show": "never" },
   "agent": {
+    "play_sound_when_agent_done": true,
+    "default_profile": "minimal",
     "default_model": {
       "provider": "zed.dev",
       "model": "claude-sonnet-4-latest"
