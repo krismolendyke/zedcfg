@@ -142,12 +142,12 @@
           },
           "organizeimports": "true"
         }
-      },
-      "taplo": {
-        "settings": {
-          "array_auto_collapse": false,
-          "column_width": 120
-        }
+      }
+    },
+    "taplo": {
+      "settings": {
+        "array_auto_collapse": false,
+        "column_width": 120
       }
     }
   }
