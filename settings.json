@@ -42,6 +42,7 @@
     "org": true,
     "oxocarbon": true,
     "ruff": true,
+    "terraform": true,
     "toml": true,
     "tomorrow-theme": true
   },
