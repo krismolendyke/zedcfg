@@ -16,10 +16,13 @@
   },
   "confirm_quit": true,
 
+  "file_types": {
+    "YAML": [".yamllint"]
+  },
+
   "active_pane_modifiers": {
     "border_size": 2.0,
-    "inactive_opacity": 1.0,
-    "magnification": 1.0
+    "inactive_opacity": 1.0
   },
 
   "preferred_line_length": 120,

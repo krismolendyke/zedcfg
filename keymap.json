@@ -53,7 +53,13 @@
   },
 
   // Pane
-  { "context": "Pane", "use_key_equivalents": true, "bindings": {} },
+  {
+    "context": "Pane",
+    "use_key_equivalents": true,
+    "bindings": {
+      "ctrl-x ctrl-a": "pane::DeploySearch"
+    }
+  },
 
   // Buffer Search
   {
