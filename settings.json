@@ -17,7 +17,8 @@
   "confirm_quit": true,
 
   "file_types": {
-    "YAML": [".yamllint"]
+    "YAML": [".yamllint"],
+    "TOML": [".sqlfluff"]
   },
 
   "active_pane_modifiers": {
@@ -45,6 +46,7 @@
     "org": true,
     "oxocarbon": true,
     "ruff": true,
+    "sql": true,
     "terraform": true,
     "toml": true,
     "tomorrow-theme": true
