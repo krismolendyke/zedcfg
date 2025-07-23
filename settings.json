@@ -56,6 +56,7 @@
   // keybindings because those will not be shown by zed: open default keymap
   "base_keymap": "Emacs",
 
+  "agent_font_size": 24,
   "ui_font_family": "PragmataPro Liga",
   "ui_font_size": 18,
   "ui_font_weight": 400,
