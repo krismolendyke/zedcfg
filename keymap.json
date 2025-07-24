@@ -95,8 +95,8 @@
       // Selection
       "cmd-ctrl-space": "editor::SelectLargerSyntaxNode",
       "cmd-ctrl-enter": "editor::SelectAllMatches",
-      "cmd-ctrl-,": "editor::AddSelectionAbove",
-      "cmd-ctrl-.": "editor::AddSelectionBelow",
+      "cmd-ctrl-,": "editor::AddSelectionAbove", // See Editor && selection_mode context: editor::SelectPrevious
+      "cmd-ctrl-.": "editor::AddSelectionBelow", // See Editor && selection_mode context: editor::SelectNext
 
       // Cut/Copy/Paste
       // TODO editor::KillRingCut & editor::KillRingYank when zed groks how a kill ring actually works.
@@ -139,6 +139,17 @@
     "bindings": {
       "ctrl-n": "editor::ContextMenuNext",
       "ctrl-p": "editor::ContextMenuPrevious"
+    }
+  },
+
+  // Editor when selection is active
+  {
+    "context": "Editor && selection_mode",
+    "use_key_equivalents": true,
+    "bindings": {
+      // Selection
+      "cmd-ctrl-,": "editor::SelectPrevious", // See Editor context: editor::AddSelectionAbove
+      "cmd-ctrl-.": "editor::SelectNext" // See Editor context: editor::AddSelectionBelow
     }
   },
 
