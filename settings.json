@@ -18,7 +18,8 @@
 
   "file_types": {
     "YAML": [".yamllint"],
-    "TOML": [".sqlfluff"]
+    "TOML": [".sqlfluff"],
+    "Shell Script": ["env.example", "env.development"]
   },
 
   "active_pane_modifiers": {
