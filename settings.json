@@ -17,9 +17,11 @@
   "confirm_quit": true,
 
   "file_types": {
-    "YAML": [".yamllint"],
+    "OpenTofu": [".tf"],
+    "OpenTofu Vars": [".tfvars"],
+    "Shell Script": ["env.example", "env.development"],
     "TOML": [".sqlfluff"],
-    "Shell Script": ["env.example", "env.development"]
+    "YAML": [".yamllint"]
   },
 
   "active_pane_modifiers": {
