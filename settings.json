@@ -45,10 +45,10 @@
     "material-icon-theme": true,
     "material-theme": true,
     "one-dark-pro": true,
+    "opentofu": true,
     "org": true,
     "ruff": true,
     "sql": true,
-    "terraform": true,
     "toml": true,
     "tomorrow-theme": true
   },
