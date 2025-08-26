@@ -17,8 +17,6 @@
   "confirm_quit": true,
 
   "file_types": {
-    "OpenTofu": [".tf"],
-    "OpenTofu Vars": [".tfvars"],
     "Shell Script": ["env.example", "env.development"],
     "TOML": [".sqlfluff"],
     "YAML": [".yamllint"]
@@ -47,10 +45,10 @@
     "material-icon-theme": true,
     "material-theme": true,
     "one-dark-pro": true,
-    "opentofu": true,
     "org": true,
     "ruff": true,
     "sql": true,
+    "terraform": true,
     "toml": true,
     "tomorrow-theme": true
   },
