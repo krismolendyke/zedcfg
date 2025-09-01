@@ -7,7 +7,7 @@
     "default_model": {
       "provider": "zed.dev",
       "model": "claude-sonnet-4-latest"
-    },
+    }
   },
   "telemetry": {
     "metrics": false,
@@ -42,15 +42,11 @@
     "just:": true,
     "log": true,
     "make": true,
-    "material-icon-theme": true,
-    "material-theme": true,
-    "one-dark-pro": true,
     "org": true,
     "ruff": true,
     "sql": true,
     "terraform": true,
-    "toml": true,
-    "tomorrow-theme": true
+    "toml": true
   },
 
   // See https://github.com/zed-industries/zed/blob/main/assets/keymaps/macos/emacs.json for the actual Emacs
