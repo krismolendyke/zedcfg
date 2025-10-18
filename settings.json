@@ -2,6 +2,7 @@
 {
   "minimap": { "show": "never" },
   "agent": {
+    "always_allow_tool_actions": true,
     "play_sound_when_agent_done": true,
     "default_profile": "minimal",
     "default_model": {
@@ -53,7 +54,6 @@
   // keybindings because those will not be shown by zed: open default keymap
   "base_keymap": "Emacs",
 
-  "agent_font_size": 22,
   "ui_font_family": "PragmataPro Liga",
   "ui_font_size": 18,
   "ui_font_weight": 400,
@@ -121,12 +121,8 @@
       "language_servers": ["pyright", "ruff"],
       "format_on_save": "on",
       "formatter": [
-        {
-          "code_actions": {
-            "source.organizeImports.ruff": true,
-            "source.fixAll.ruff": true
-          }
-        },
+        { "code_action": "source.organizeImports.ruff" },
+        { "code_action": "source.fixAll.ruff" },
         {
           "language_server": {
             "name": "ruff"
