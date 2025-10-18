@@ -44,6 +44,7 @@
     "log": true,
     "make": true,
     "org": true,
+    "pyrefly": true,
     "ruff": true,
     "sql": true,
     "terraform": true,
