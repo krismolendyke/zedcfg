@@ -118,6 +118,14 @@
   "extend_comment_on_newline": false,
 
   "languages": {
+    "JavaScript": {
+      "formatter": {
+        "external": {
+          "command": "prettier",
+          "arguments": ["--stdin-filepath", "{buffer_path}", "--trailing-comma", "all"]
+        }
+      }
+    },
     "Python": {
       "language_servers": ["pyrefly", "!pyright", "!pylsp", "ruff"],
       "format_on_save": "on",
