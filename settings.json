@@ -45,7 +45,6 @@
     "make": true,
     "org": true,
     "pyrefly": true,
-    "ruff": true,
     "sql": true,
     "terraform": true,
     "toml": true
@@ -126,18 +125,14 @@
         }
       }
     },
+
     "Python": {
-      "language_servers": ["pyrefly", "!pyright", "!pylsp", "ruff"],
-      "format_on_save": "on",
-      "formatter": [
-        { "code_action": "source.organizeImports.ruff" },
-        { "code_action": "source.fixAll.ruff" },
-        {
-          "language_server": {
-            "name": "ruff"
-          }
-        }
-      ]
+      "language_servers": ["pyrefly", "ruff", "!pyright", "!pylsp"],
+      "code_actions_on_format": {
+        "source.organizeImports.ruff": true,
+        "source.fixAll.ruff": true
+      },
+      "format_on_save": "on"
     }
   },
 
@@ -150,6 +145,7 @@
         }
       }
     },
+
     "ruff": {
       "initialization_options": {
         "settings": {
@@ -161,6 +157,7 @@
         }
       }
     },
+
     "taplo": {
       "settings": {
         "array_auto_collapse": false,
