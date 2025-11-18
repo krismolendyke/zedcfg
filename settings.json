@@ -47,7 +47,7 @@
     "pyrefly": true,
     "sql": true,
     "terraform": true,
-    "toml": true
+    "tombi": true
   },
 
   // See https://github.com/zed-industries/zed/blob/main/assets/keymaps/macos/emacs.json for the actual Emacs
@@ -155,13 +155,6 @@
           },
           "organizeimports": "true"
         }
-      }
-    },
-
-    "taplo": {
-      "settings": {
-        "array_auto_collapse": false,
-        "column_width": 120
       }
     }
   }
