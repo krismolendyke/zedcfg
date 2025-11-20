@@ -161,8 +161,7 @@
           "lineLength": 120,
           "lint": {
             "extendSelect": ["I"]
-          },
-          "organizeimports": "true"
+          }
         }
       }
     }
