@@ -7,11 +7,20 @@
   "agent": {
     "always_allow_tool_actions": true,
     "play_sound_when_agent_done": true,
-    "default_profile": "minimal",
+    "default_profile": "write",
     "default_model": {
       "provider": "gemini",
-      "model": "gemini-3.0-pro",
+      "model": "gemini-3.0-pro-preview",
     },
+  },
+  "edit_predictions": {
+    "mode": "subtle",
+    "copilot": {
+      "proxy": null,
+      "proxy_no_verify": null,
+      "enterprise_uri": null,
+    },
+    "enabled_in_text_threads": false,
   },
   "agent_servers": {
     "gemini": {
