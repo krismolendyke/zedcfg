@@ -54,12 +54,15 @@
   // keybindings because those will not be shown by zed: open default keymap
   "base_keymap": "Emacs",
 
-  "ui_font_family": "PragmataPro Liga",
-  "ui_font_size": 18,
-  "ui_font_weight": 400,
+  // Font
+  "agent_buffer_font_size": 18,
+  "agent_ui_font_size": 20,
   "buffer_font_family": "PragmataPro Mono Liga",
   "buffer_font_size": 20,
   "buffer_font_weight": 400,
+  "ui_font_family": "PragmataPro Liga",
+  "ui_font_size": 18,
+  "ui_font_weight": 400,
 
   // https://fsd.it/pragmatapro/Handbook.rtf
   "buffer_font_features": {
