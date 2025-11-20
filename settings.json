@@ -16,6 +16,10 @@
   },
   "confirm_quit": true,
 
+  "project_panel": {
+    "auto_reveal_entries": true
+  },
+
   "file_types": {
     "Shell Script": ["env.example", "env.development"],
     "TOML": [".sqlfluff"],
