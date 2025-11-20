@@ -5,11 +5,20 @@
   "agent": {
     "always_allow_tool_actions": true,
     "play_sound_when_agent_done": true,
-    "default_profile": "minimal",
+    "default_profile": "write",
     "default_model": {
-      "provider": "zed.dev",
-      "model": "claude-sonnet-4-latest"
+      "provider": "google",
+      "model": "gemini-3-pro-preview"
     }
+  },
+  "edit_predictions": {
+    "mode": "subtle",
+    "copilot": {
+      "proxy": null,
+      "proxy_no_verify": null,
+      "enterprise_uri": null
+    },
+    "enabled_in_text_threads": false
   },
   "telemetry": {
     "metrics": false,
