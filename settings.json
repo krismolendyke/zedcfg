@@ -63,10 +63,10 @@
   "agent_ui_font_size": 20,
   "buffer_font_family": "PragmataPro VF Mono Liga",
   "buffer_font_size": 20,
-  "buffer_font_weight": 400,
+  "buffer_font_weight": 500,
   "ui_font_family": "PragmataPro VF Liga",
   "ui_font_size": 18,
-  "ui_font_weight": 400,
+  "ui_font_weight": 500,
 
   // https://fsd.it/pragmatapro/Handbook.rtf
   "buffer_font_features": {
