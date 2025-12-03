@@ -1,5 +1,6 @@
 // https://zed.dev/docs/configuring-zed
 {
+  "colorize_brackets": true,
   "minimap": { "show": "never" },
   "agent": {
     "always_allow_tool_actions": true,
