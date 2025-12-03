@@ -47,7 +47,7 @@
       "cmd-shift-space": "workspace::ActivatePreviousPane",
 
       // Pane pain
-      "ctrl-x 0": "pane::CloseOtherItems",
+      "ctrl-x 0": "workspace::CloseInactiveTabsAndPanes",
       "ctrl-x 1": "pane::JoinAll",
       "ctrl-x 2": "pane::SplitAndMoveUp",
       "ctrl-x 3": "pane::SplitAndMoveRight"
