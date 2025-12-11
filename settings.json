@@ -126,6 +126,7 @@
   "extend_comment_on_newline": false,
 
   "languages": {
+    // https://zed.dev/docs/languages/javascript
     "JavaScript": {
       "formatter": {
         "external": {
@@ -135,19 +136,13 @@
       }
     },
 
+    // https://zed.dev/docs/languages/python
     "Python": {
-      "formatter": {
-        "external": {
-          "command": "ruff",
-          "arguments": ["format", "--stdin-filename", "{buffer_path}", "-"]
-        }
-      },
       "language_servers": ["pyrefly", "ruff", "!pyright", "!pylsp"],
       "code_actions_on_format": {
         "source.organizeImports.ruff": true,
         "source.fixAll.ruff": true
-      },
-      "format_on_save": "on"
+      }
     }
   },
 
