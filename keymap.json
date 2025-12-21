@@ -158,7 +158,7 @@
       "cmd-ctrl-.": "editor::SelectNext", // See Editor context: editor::AddSelectionBelow
 
       // Mimic Emacs multiple cursors mark (selection) behavior
-      // NB! there seems to be a bug where editor::SelectLargerSyntaxNode does not set selection_mode, need to file a bug for that
+      // NB! there seems to be a bug where editor::SelectLargerSyntaxNode or editor::SelectAllMatches does not set selection_mode, need to file a bug for that
       "ctrl-g": "editor::SetMark", // Mimic Emacs multiple cursors where ctrl-g deactivates mark (selection) if any are active
       "ctrl-g ctrl-g": "editor::Cancel", // Mimic Emacs multiple cursors where ctrl-g exits if there is no selection
     },
