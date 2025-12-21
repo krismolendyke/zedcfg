@@ -16,7 +16,7 @@
   {
     "context": "BufferSearchBar > Editor",
     "use_key_equivalents": true,
-    "bindings": { "ctrl-g": "buffer_search::Dismiss" }
+    "bindings": { "ctrl-g": "buffer_search::Dismiss" },
   },
   { "context": "Pane > Editor", "use_key_equivalents": true, "bindings": { "ctrl-g": "editor::Cancel" } },
   { "context": "PromptEditor > Editor", "use_key_equivalents": true, "bindings": { "ctrl-g": "editor::Cancel" } },
@@ -29,8 +29,8 @@
     "use_key_equivalents": true,
     "bindings": {
       "cmd-x": "command_palette::Toggle",
-      "q": "pane::CloseActiveItem"
-    }
+      "q": "pane::CloseActiveItem",
+    },
   },
 
   // Workspace
@@ -50,8 +50,8 @@
       "ctrl-x 0": "workspace::CloseInactiveTabsAndPanes",
       "ctrl-x 1": "pane::JoinAll",
       "ctrl-x 2": "pane::SplitAndMoveUp",
-      "ctrl-x 3": "pane::SplitAndMoveRight"
-    }
+      "ctrl-x 3": "pane::SplitAndMoveRight",
+    },
   },
 
   // Pane
@@ -59,8 +59,8 @@
     "context": "Pane",
     "use_key_equivalents": true,
     "bindings": {
-      "ctrl-x ctrl-a": "pane::DeploySearch"
-    }
+      "ctrl-x ctrl-a": "pane::DeploySearch",
+    },
   },
 
   // Buffer Search
@@ -70,8 +70,8 @@
     "bindings": {
       "ctrl-n": "search::SelectNextMatch",
       "ctrl-p": "search::SelectPreviousMatch",
-      "enter": "editor::Cancel"
-    }
+      "enter": "editor::Cancel",
+    },
   },
 
   // Editor
@@ -81,8 +81,8 @@
     "bindings": {
       // Movement
       "cmd-m": ["editor::MoveToBeginningOfLine", { "stop_at_indent": true }],
-      "cmd-b": "editor::MoveToPreviousWordStart",
-      "cmd-f": "editor::MoveToNextWordEnd",
+      "cmd-b": "editor::MoveToPreviousWordStart", // See Editor && selection_mode
+      "cmd-f": "editor::MoveToNextWordEnd", // See Editor && selection_mode
       "cmd-a": "editor::MoveToStartOfParagraph",
       "cmd-e": "editor::MoveToEndOfParagraph",
       "cmd-<": "editor::MoveToBeginning",
@@ -132,16 +132,16 @@
       "ctrl-i": "editor::Hover",
       "cmd-x": "command_palette::Toggle",
       "ctrl-x ctrl-f": ["task::Spawn", { "task_name": "File Finder", "reveal_target": "center" }],
-      "ctrl-x ctrl-r": "file_finder::Toggle"
-    }
+      "ctrl-x ctrl-r": "file_finder::Toggle",
+    },
   },
   {
     "context": "Editor && (showing_code_actions || showing_completions)",
     "use_key_equivalents": true,
     "bindings": {
       "ctrl-n": "editor::ContextMenuNext",
-      "ctrl-p": "editor::ContextMenuPrevious"
-    }
+      "ctrl-p": "editor::ContextMenuPrevious",
+    },
   },
 
   // Editor when selection is active
@@ -149,10 +149,14 @@
     "context": "Editor && selection_mode",
     "use_key_equivalents": true,
     "bindings": {
+      // Movement
+      "cmd-b": "editor::SelectToPreviousWordStart", // See Editor
+      "cmd-f": "editor::SelectToNextWordEnd", // See Editor
+
       // Selection
       "cmd-ctrl-,": "editor::SelectPrevious", // See Editor context: editor::AddSelectionAbove
-      "cmd-ctrl-.": "editor::SelectNext" // See Editor context: editor::AddSelectionBelow
-    }
+      "cmd-ctrl-.": "editor::SelectNext", // See Editor context: editor::AddSelectionBelow
+    },
   },
 
   // Editor when a prediction is being shown inline
@@ -162,6 +166,6 @@
     "bindings": {
       // "tab": "editor::Tab", // Let tab be tab for god's sake,
       // "ctrl-space": "editor::AcceptEditPrediction" // I'll be explicit when I want the prediction
-    }
-  }
+    },
+  },
 ]
