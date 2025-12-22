@@ -49,7 +49,6 @@
     "just:": true,
     "log": true,
     "make": true,
-    "markdownlint": true,
     "org": true,
     "pyrefly": true,
     "sql": true,
