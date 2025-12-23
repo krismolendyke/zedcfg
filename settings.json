@@ -51,6 +51,7 @@
     "make": true,
     "org": true,
     "pyrefly": true,
+    "rumdl": true,
     "sql": true,
     "terraform": true,
     "tombi": true,
