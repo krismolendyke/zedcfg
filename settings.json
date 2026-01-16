@@ -2,6 +2,8 @@
 {
   "colorize_brackets": true,
   "minimap": { "show": "never" },
+
+  // https://zed.dev/docs/ai/external-agents
   "agent": {
     "always_allow_tool_actions": true,
     "play_sound_when_agent_done": true,
@@ -11,6 +13,12 @@
       "model": "claude-sonnet-4-latest",
     },
   },
+  "agent_servers": {
+    "gemini": {
+      "ignore_system_version": false,
+    },
+  },
+
   "telemetry": {
     "metrics": false,
     "diagnostics": false,
