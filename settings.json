@@ -47,6 +47,7 @@
     "git-firefly": true,
     "html": true,
     "just:": true,
+    "latex": true,
     "log": true,
     "make": true,
     "org": true,
