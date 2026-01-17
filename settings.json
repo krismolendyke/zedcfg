@@ -9,8 +9,8 @@
     "play_sound_when_agent_done": true,
     "default_profile": "minimal",
     "default_model": {
-      "provider": "zed.dev",
-      "model": "claude-sonnet-4-latest",
+      "provider": "gemini",
+      "model": "gemini-3.0-pro",
     },
   },
   "agent_servers": {
