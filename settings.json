@@ -64,6 +64,7 @@
     "sql": true,
     "terraform": true,
     "tombi": true,
+    "tron-legacy": true,
   },
 
   // See https://github.com/zed-industries/zed/blob/main/assets/keymaps/macos/emacs.json for the actual Emacs
@@ -93,8 +94,8 @@
 
   "theme": {
     "mode": "system",
-    "light": "Base16 Gruvbox Material Light, Soft",
-    "dark": "Base16 Gruvbox Material Dark, Soft",
+    "light": "Tron Legacy Light",
+    "dark": "Tron Legacy",
   },
   "icon_theme": {
     "mode": "system",
