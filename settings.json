@@ -30,6 +30,8 @@
   },
 
   "file_types": {
+    "OpenTofu Vars": ["tfvars"],
+    "OpenTofu": ["tf"],
     "Shell Script": ["env.example", "env.development"],
     "TOML": [".sqlfluff"],
     "YAML": [".yamllint"],
@@ -58,11 +60,11 @@
     "latex": true,
     "log": true,
     "make": true,
+    "opentofu": true,
     "org": true,
     "pyrefly": true,
     "rumdl": true,
     "sql": true,
-    "terraform": true,
     "tombi": true,
     "tron-legacy": true,
   },
