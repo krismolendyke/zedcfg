@@ -3,7 +3,7 @@
   "colorize_brackets": true,
   "minimap": { "show": "never" },
 
-  // https://zed.dev/docs/ai/external-agents
+  // https://zed.dev/docs/ai/agent-settings
   "agent": {
     "always_allow_tool_actions": true,
     "play_sound_when_agent_done": true,
@@ -13,6 +13,8 @@
       "model": "gemini-3.0-pro",
     },
   },
+
+  // https://zed.dev/docs/ai/external-agents
   "agent_servers": {
     "gemini": {
       "ignore_system_version": false,
