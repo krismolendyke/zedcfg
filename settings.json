@@ -62,7 +62,6 @@
     "make": true,
     "opentofu": true,
     "org": true,
-    "pyrefly": true,
     "rumdl": true,
     "sql": true,
     "tombi": true,
@@ -151,7 +150,7 @@
 
     // https://zed.dev/docs/languages/python
     "Python": {
-      "language_servers": ["pyrefly", "ruff", "!pyright", "!pylsp"],
+      "language_servers": ["ty", "ruff", "!pyright", "!pylsp"],
       "code_actions_on_format": {
         "source.organizeImports.ruff": true,
         "source.fixAll.ruff": true,
@@ -160,15 +159,6 @@
   },
 
   "lsp": {
-    "pyrefly": {
-      "settings": {
-        "pyrefly": {
-          "project_excludes": ["**/.[!/.]*", "**/*venv/**"],
-          "ignore_errors_in_generated_code": true,
-        },
-      },
-    },
-
     "ruff": {
       "initialization_options": {
         "settings": {
