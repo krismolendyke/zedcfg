@@ -9,8 +9,9 @@
     "play_sound_when_agent_done": true,
     "default_profile": "write",
     "default_model": {
-      "provider": "gemini",
-      "model": "gemini-3.0-pro-preview",
+      "enable_thinking": true,
+      "provider": "google",
+      "model": "gemini-3.1-pro-preview",
     },
   },
   "edit_predictions": {
