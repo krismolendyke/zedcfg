@@ -5,7 +5,9 @@
 
   // https://zed.dev/docs/ai/agent-settings
   "agent": {
-    "always_allow_tool_actions": true,
+    "tool_permissions": {
+      "default": "allow"
+    },
     "play_sound_when_agent_done": true,
     "default_profile": "write",
     "default_model": {
