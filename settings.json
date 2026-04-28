@@ -1,13 +1,13 @@
 // https://zed.dev/docs/configuring-zed
 {
   "outline_panel": {
-    "dock": "left"
+    "dock": "left",
   },
   "collaboration_panel": {
-    "dock": "left"
+    "dock": "left",
   },
   "git_panel": {
-    "dock": "left"
+    "dock": "left",
   },
   "colorize_brackets": true,
   "minimap": { "show": "never" },
@@ -18,7 +18,7 @@
     "tool_permissions": {
       "default": "allow",
     },
-    "play_sound_when_agent_done": true,
+    "play_sound_when_agent_done": "always",
     "default_profile": "write",
     "default_model": {
       "enable_thinking": true,
@@ -39,7 +39,7 @@
   // https://zed.dev/docs/ai/external-agents
   "agent_servers": {
     "claude-acp": {
-      "type": "registry"
+      "type": "registry",
     },
     "gemini-custom": {
       "type": "custom",
