@@ -26,14 +26,10 @@
       "model": "gemini-3.1-pro-preview",
     },
   },
+
   "edit_predictions": {
-    "mode": "subtle",
-    "copilot": {
-      "proxy": null,
-      "proxy_no_verify": null,
-      "enterprise_uri": null,
-    },
-    "enabled_in_text_threads": false,
+    "provider": "zed",
+    "mode": "eager",
   },
 
   // https://zed.dev/docs/ai/external-agents
