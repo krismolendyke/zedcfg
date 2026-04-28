@@ -29,11 +29,12 @@
 
   // https://zed.dev/docs/ai/edit-prediction
   "edit_predictions": {
+    // uvx --from mlx-lm mlx_lm.server --model mlx-community/Qwen2.5-Coder-7B-4bit
     "open_ai_compatible_api": {
-      "prompt_format": "zeta2",
+      "prompt_format": "qwen",
       "max_output_tokens": 256,
-      "api_url": "http://localhost:1234/v1/completions",
-      "model": "zeta2-guff",
+      "api_url": "http://localhost:8080/v1/completions",
+      "model": "mlx-community/Qwen2.5-Coder-7B-4bit",
     },
     "provider": "open_ai_compatible_api",
     "mode": "subtle",
