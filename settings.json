@@ -27,9 +27,16 @@
     },
   },
 
+  // https://zed.dev/docs/ai/edit-prediction
   "edit_predictions": {
-    "provider": "zed",
-    "mode": "eager",
+    "open_ai_compatible_api": {
+      "prompt_format": "zeta2",
+      "max_output_tokens": 256,
+      "api_url": "http://localhost:1234/v1/completions",
+      "model": "zeta2-guff",
+    },
+    "provider": "open_ai_compatible_api",
+    "mode": "subtle",
   },
 
   // https://zed.dev/docs/ai/external-agents
