@@ -42,12 +42,11 @@
 
   // https://zed.dev/docs/ai/external-agents
   "agent_servers": {
-    "claude-acp": {
+    "gemini": {
       "type": "registry",
     },
-    "gemini-custom": {
-      "type": "custom",
-      "command": "gemini",
+    "claude-acp": {
+      "type": "registry",
     },
   },
 
