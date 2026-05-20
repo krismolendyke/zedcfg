@@ -1,20 +1,20 @@
 // https://zed.dev/docs/configuring-zed
 {
   "outline_panel": {
-    "dock": "left",
+    "dock": "right",
   },
   "collaboration_panel": {
-    "dock": "left",
+    "dock": "right",
   },
   "git_panel": {
-    "dock": "left",
+    "dock": "right",
   },
   "colorize_brackets": true,
   "minimap": { "show": "never" },
 
   // https://zed.dev/docs/ai/agent-settings
   "agent": {
-    "dock": "right",
+    "dock": "left",
     "tool_permissions": {
       "default": "allow",
     },
@@ -58,7 +58,7 @@
   "confirm_quit": true,
 
   "project_panel": {
-    "dock": "left",
+    "dock": "right",
     "auto_reveal_entries": true,
   },
 
