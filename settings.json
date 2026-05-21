@@ -201,4 +201,10 @@
       },
     },
   },
+
+  "terminal": {
+    "env": {
+      "STARSHIP_SHELL": "", // zed inherits this from launch env, unset so starship will init
+    },
+  },
 }
