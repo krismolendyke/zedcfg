@@ -33,6 +33,17 @@
     },
   },
 
+  // Terminal
+  {
+    "context": "Terminal",
+    "use_key_equivalents": true,
+    "bindings": {
+      // Dock
+      "cmd-r": "workspace::ToggleRightDock", // See Workspace
+      "alt-cmd-r": "workspace::ToggleLeftDock", // See Workspace
+    },
+  },
+
   // Workspace
   {
     "context": "Workspace",
@@ -41,6 +52,10 @@
       // Commands
       "cmd-x": "command_palette::Toggle",
       "ctrl-x ctrl-f": ["task::Spawn", { "task_name": "File Finder", "reveal_target": "center" }],
+
+      // Dock
+      "cmd-r": "workspace::ToggleRightDock", // See Terminal
+      "alt-cmd-r": "workspace::ToggleLeftDock", // See Terminal
 
       // Focus
       "cmd-space": "workspace::ActivateNextPane",
